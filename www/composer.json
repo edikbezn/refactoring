@@ -1,0 +1,24 @@
+{
+    "name": "edikbezn/testtask",
+    "description": "Test task, refactoring",
+    "authors": [
+        {
+            "name": "Eduard Beznosov",
+            "email": "edik.beznosov@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "symfony/console": "^5.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
