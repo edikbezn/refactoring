@@ -26,4 +26,4 @@ docker-compose exec php sh -c "php testapp.php input.txt"
 ```
 where "input.tst" - file with the list of transactions
 
-Old app (from the description) is in [test.app](https://github.com/edikbezn/refactoring/blob/master/www/app.php)
+Old app (from the description) is in [app.php](https://github.com/edikbezn/refactoring/blob/master/www/app.php)
