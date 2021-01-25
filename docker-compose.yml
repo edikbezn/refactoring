@@ -1,5 +1,12 @@
 version: "3"
 services:
+  composer:
+    image: composer:2.0
+    volumes:
+      - ./www:/var/www
+    working_dir: /var/www
+    command: cp .env.example .env && composer install
+
   php:
     build: ./docker/php
     container_name: php_cli
